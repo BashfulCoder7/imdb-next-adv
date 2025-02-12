@@ -60,7 +60,7 @@ export async function POST(req) {
   }
 
   if (eventType === "user.deleted") {
-    console.log("User deleted event");
+    console.log('User deleted event');
   }
 
   return new Response("Webhook received", { status: 200 })
