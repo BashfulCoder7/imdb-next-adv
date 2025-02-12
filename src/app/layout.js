@@ -1,5 +1,5 @@
 import "./globals.css";
-import Header from "@/components/Header";
+import Header from "../components/Header";
 import Providers from "@/components/Providers";
 import { ClerkProvider } from "@clerk/nextjs";
 
