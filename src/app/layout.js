@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Providers from "../components/Providers";
 import { ClerkProvider } from "@clerk/nextjs";
+import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "IMDb Clone",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <body>
           <Providers>
             <Header />
+            <Navbar />
             {children}
           </Providers>
         </body>
